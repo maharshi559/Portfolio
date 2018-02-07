@@ -6,61 +6,126 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Anton|Bree+Serif|Lobster+Two:700i|Playfair+Display|Quicksand" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Lato:900|Lato:300|Anton|Bree+Serif|Lobster+Two:700i|Roboto:300|Dosis|Playfair+Display|Oswald|Quicksand" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="animate.css">
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
 	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 </head>
 <body ng-app="showcase">
-<section>
-	<nav class="navigation">
-		<div class="container">
-			<span id="logo"><h1>mv</h1></span>
-			<div id="links">
-				<ul>
-
-					<a href="index.html"><li><i class="fa fa-home fa-2x"></i><br>Home</li></a>
-					<a href="about.html"><li><i class="fa fa-id-badge fa-2x"></i><br>About</li></a>
-					<a href="projects.html"><li><i class="fa fa-gears fa-2x"></i><br>Projects</li></a>
-					<a href="photos.html"><li><i class="fa fa-camera fa-2x"></i><br>Clicks</li></a>
-					<a href="contact.html"><li><i class="fa fa-handshake-o fa-2x"></i><br>Contact</li></a>
-
-				</ul>
-			</div>
-		</div>
-	</nav>
-
-
-</section>
-
 <ng-view></ng-view>
 
-<section id="header">
-	<div class="row">
-		<div class=" col-lg-12 col-xs-12 col-sm-12 " >
-			<section id="image-intro">
-				<img src="images/sample.png">
-			</section>
-
-			<section id="text-border">
-				<h1 class="animated FadeIn">Maharshi Vishwakarma</h1>
-				<hr width="60%">
-				<p class="animated ZoomIn">Front-End Web Developer</p>
-			</section>
-		</div>
+<div id="header">
+	<div id="name" data-depth="0.0">
+				<p>Hello,</p>
+				<p> I'm Venkata</p>
+				<h1>FRONT END & UI <span>developer</span></h1>
+				<h5>Thoughtful. Enthusiast. Achiever.</h5>
 	</div>
-</section>
-<section id="workspace">
+	<div data-relative-input="true" id="scene">
+		
+		<div data-depth="0.3"><img src="images/new_0000_Layer-2.png"></div>
+		<div data-depth="0.1"><img src="images/new_0002.png"></div>
+		<div data-depth="0.1"><img src="images/iphone.png"></div>
+		<div data-depth="0.6"><img src="images/new_0003.png"></div>
+		<div data-depth="0.4"><img src="images/new_0004.png"></div>
+		<div data-depth="0.9"><img src="images/new_0005.png"></div>
+	</div>	
+</div>
 
-</section>
+<div id="workspace">
+
+	<h1><span>ABOUT ME</span></h1>
+	<div class="panels">
+		<div id="panel"><span>"</span>I'm a 23 years old web developer and designer.<span>"</span></div>
+		<div id="panel">I'm a recent graduate of masters at University of North Texas in Information Sciences.  I started leaning web technologies myself by watching videos and going through tutorials.</div>
+		<div id="panel">I started my career as a simple HTML and CSS engineer, but my interests were always towards building complex Web Applications. I'm always passionate about creating some cool and interactive websites.</div>
+	</div>
+
+</div>
+
+<!-- <div id="portfolio">
+		<div class="portfolio col-md-12">
+			<div class="col-md-6">
+				<h1>Know more <span>ABOUT MY WORK</span></h1>
+			</div>
+		</div>
+		<div class="col-md-12 container" id="work-tile">
+			<div class="col-md-8">
+				<img src="images/mcars.png" width="90%">
+			</div>
+			<div class="col-md-4">
+				<h2>M Cars</h2>
+				<p>Car Rental Admin Portal</p>
+			</div>
+		</div>
+		<div class="col-md-12 container" id="work-tile">
+			<div class="col-md-4">
+				<h2>GS Green</h2>
+				<p>Showcase Website for a eco-friendly Plastic bag firm</p>
+			</div>
+			<div class="col-md-8">
+				<img src="images/gsgreen.png" width="90%">
+			</div>
+		</div>
+		<div class="col-md-12 container" id="work-tile">
+			<div class="col-md-8">
+				<img src="images/linkshare.png" width="90%">
+			</div>
+			<div class="col-md-4">
+				<h2>linkshare</h2>
+				<p>Blog like application to share links between users</p>
+			</div>
+		</div>
+		<div class="col-md-12 container"  id="work-tile">
+			<div class="col-md-4">
+				<h2>Cricket Rules</h2>
+				<p>Simple Information Website about Cricket's Rules</p>
+			</div>
+			<div class="col-md-8">
+				<img src="images/cricket.png" width="90%">
+			</div>
+		</div>
+
+</div> -->
+
+<div id="portfolio">
+	<div id="airplane">
+		<img src="images/airplane.png">
+	</div>
+	<div id="graduate">
+		<img src="images/graduate.png">
+	</div>
+	<div id="firstfoot">
+		<h1>FIRST FOOT IN USA on AUG 10th 2015</h1>
+	</div>
+	<div>
+	<a><h5>NEXT ></h5></a>
+	</div>
+</div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 <script src="js/main.js" type="text/javascript"></script>
+
+<script>
+  // Elements
+  var scene = document.getElementById('scene');
+  
+  // Pretty simple huh?
+  var parallax = new Parallax(scene);
+
+  window.sr = ScrollReveal();
+	//sr.reveal('.work',{ duration: 2000 , origin: 'top',});
+	//sr.reveal('#portfolio',{ duration:5000 ,delay: 1000});
+	sr.reveal('#work-tile',{ duration:2000 ,delay: 1000});
+  </script>
+
+
 
 
 </body>
